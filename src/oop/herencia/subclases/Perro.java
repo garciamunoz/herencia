@@ -9,6 +9,7 @@ public class Perro extends Animal implements Robot {
 
     //Sobreescribiendo el metodo
     public void sonido(){
+
         System.out.println(" El sonido es ladrar, el mensaje padre no aparecera");
     }
 

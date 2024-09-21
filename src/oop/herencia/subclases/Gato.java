@@ -11,6 +11,7 @@ public class Gato extends Animal implements Robot {
         super.sonido();
         //logica de la subclase
         System.out.println(" maullar ");
+
     }
 
     public String getColor() {
@@ -22,7 +23,7 @@ public class Gato extends Animal implements Robot {
     }
 
 
-    public void hacerLogica() {
-        System.out.println("Este es un gato robot");
-    }
+
+
+
 }

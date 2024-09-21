@@ -1,3 +1,5 @@
+import oop.herencia.abstracto.Estudiante;
+import oop.herencia.abstracto.Persona;
 import oop.herencia.interfase.TarjetasService;
 import oop.herencia.interfase.impl.TarjetasServiceImpl;
 import oop.herencia.model.Tarjeta;
@@ -51,12 +53,13 @@ public class Main {
         cat.hacerLogica();*/
         System.out.println("Este es nuestro controlador");
        //this.tarjetasService = new TarjetasServiceImpl();
-        List<Tarjeta> listaTarjetas = tarjetasService.listarTarjetaPorTipo("B");
+       /*List<Tarjeta> listaTarjetas = tarjetasService.listarTarjetaPorTipo("B");
         for(Tarjeta tarjeta: listaTarjetas){
             System.out.println("Numero de tarjeta es "+ tarjeta.getNumero());
             System.out.println("Tipo de tarjeta es "+ tarjeta.getTipo());
 
-        }
+        }*/
+
 
     }
 }
